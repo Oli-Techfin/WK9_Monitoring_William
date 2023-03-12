@@ -10,7 +10,8 @@ terraform {
 }
 
 provider "aws" {
-  region  = var.region
+  region = "ap-southeast-2"
+  # region  = var.region
 }
 
 resource "aws_security_group_rule" "monitor_ports" {
