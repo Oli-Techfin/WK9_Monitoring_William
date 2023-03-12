@@ -12,3 +12,7 @@ variable "sec_ports" {
   description = "The number of EC2 instances to be created"
   type        = list(string)
 }
+
+variable "region" {
+  
+}
