@@ -19,7 +19,7 @@ pipeline {
         S3BucketName    = 'monitor-week9-shawn' //Change to yours, used to save cfn yml files larger than 50KB
         SecurityGroupID = 'sg-0b38faf16565fa4a8' //Change to your default VPC's default security group ID
         JenkinsServer   = 'jenkins.petlover2023.com'   //Change to your JenkinsServer URL
-        AWS_REGION      = 'ap-southeast-2'
+        AWS_REGION      = 'ap-southeast-1'
         VPCStackName    = 'VPCALBStack'
         VPCTemplate     = 'vpc-alb-app-db.yaml'
         EC2StackName    = 'LinuxMachineDeploy'
