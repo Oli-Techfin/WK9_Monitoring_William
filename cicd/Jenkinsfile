@@ -14,12 +14,12 @@ pipeline {
         ansiColor('xterm')
     }
     environment {
-        AWS_CRED        = 'aws_jr9' //Change to yours
-        OwnerEmail      = 'william@gmail.com' //Change to yours
-        S3BucketName    = 'william-jr9' //Change to yours, used to save cfn yml files larger than 50KB
+        AWS_CRED        = 'AWS_PetLover' //Change to yours
+        OwnerEmail      = 'jadesure17m@gmail.com' //Change to yours
+        S3BucketName    = 'Monitor-Week9' //Change to yours, used to save cfn yml files larger than 50KB
         SecurityGroupID = 'sg-da83229f' //Change to your default VPC's default security group ID
-        JenkinsServer   = 'jenkins.az.willido.net'   //Change to your JenkinsServer URL
-        AWS_REGION      = 'ap-southeast-2'
+        JenkinsServer   = 'jenkins.petlover2023.com'   //Change to your JenkinsServer URL
+        AWS_REGION      = 'ap-southeast-1'
         VPCStackName    = 'VPCALBStack'
         VPCTemplate     = 'vpc-alb-app-db.yaml'
         EC2StackName    = 'LinuxMachineDeploy'
