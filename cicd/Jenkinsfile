@@ -17,7 +17,7 @@ pipeline {
         AWS_CRED        = 'AWS_PetLover' //Change to yours
         OwnerEmail      = 'jadesure17m@gmail.com' //Change to yours
         S3BucketName    = 'monitor-week9-shawn' //Change to yours, used to save cfn yml files larger than 50KB
-        SecurityGroupID = 'sg-da83229f' //Change to your default VPC's default security group ID
+        SecurityGroupID = 'sg-0b38faf16565fa4a8' //Change to your default VPC's default security group ID
         JenkinsServer   = 'jenkins.petlover2023.com'   //Change to your JenkinsServer URL
         AWS_REGION      = 'ap-southeast-1'
         VPCStackName    = 'VPCALBStack'
