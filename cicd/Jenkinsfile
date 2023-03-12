@@ -150,6 +150,7 @@ pipeline {
                                 -var "sec_gid=${SecurityGroupID}" \
                                 -var "ec2_count=${InstanceCount}" \
                                 -var "sec_ports=${SecurityPorts}" \
+                                -var "region=${AWS_REGION}" \
                                 --auto-approve
                         '''
                     }
